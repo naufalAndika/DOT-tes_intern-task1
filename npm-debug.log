@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'view',
+1 verbose cli   'DOT-tes-intern-task1' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly mapToRegistry name DOT-tes-intern-task1
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/DOT-tes-intern-task1
+8 verbose request uri https://registry.npmjs.org/DOT-tes-intern-task1
+9 verbose request no auth needed
+10 info attempt registry request try #1 at 10:33:08 AM
+11 verbose request id 9e74fe7f700fc8ac
+12 http request GET https://registry.npmjs.org/DOT-tes-intern-task1
+13 http 404 https://registry.npmjs.org/DOT-tes-intern-task1
+14 verbose headers { date: 'Sat, 16 May 2020 03:33:09 GMT',
+14 verbose headers   'content-type': 'application/json',
+14 verbose headers   'content-length': '21',
+14 verbose headers   connection: 'keep-alive',
+14 verbose headers   'set-cookie':
+14 verbose headers    [ '__cfduid=deb35f437a9799af73ca0da099fc9ada01589599988; expires=Mon, 15-Jun-20 03:33:08 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+14 verbose headers   'cf-ray': '59420916bf7d01b4-SIN',
+14 verbose headers   vary: 'Accept-Encoding',
+14 verbose headers   'cf-cache-status': 'MISS',
+14 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+14 verbose headers   server: 'cloudflare',
+14 verbose headers   'cf-request-id': '02bd240234000001b45c9ef200000001' }
+15 silly get cb [ 404,
+15 silly get   { date: 'Sat, 16 May 2020 03:33:09 GMT',
+15 silly get     'content-type': 'application/json',
+15 silly get     'content-length': '21',
+15 silly get     connection: 'keep-alive',
+15 silly get     'set-cookie':
+15 silly get      [ '__cfduid=deb35f437a9799af73ca0da099fc9ada01589599988; expires=Mon, 15-Jun-20 03:33:08 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+15 silly get     'cf-ray': '59420916bf7d01b4-SIN',
+15 silly get     vary: 'Accept-Encoding',
+15 silly get     'cf-cache-status': 'MISS',
+15 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+15 silly get     server: 'cloudflare',
+15 silly get     'cf-request-id': '02bd240234000001b45c9ef200000001' } ]
+16 verbose stack Error: Not found : DOT-tes-intern-task1
+16 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+16 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+16 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+16 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+16 verbose stack     at emitTwo (events.js:126:13)
+16 verbose stack     at Request.emit (events.js:214:7)
+16 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+16 verbose stack     at emitOne (events.js:121:20)
+16 verbose stack     at Request.emit (events.js:211:7)
+16 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+17 verbose statusCode 404
+18 verbose pkgid DOT-tes-intern-task1
+19 verbose cwd /home/naufalandika/Ngoding/Magang/DOT Indonesia/Tes/Task 1
+20 error Linux 5.3.0-51-generic
+21 error argv "/usr/bin/node" "/usr/bin/npm" "view" "DOT-tes-intern-task1"
+22 error node v8.10.0
+23 error npm  v3.5.2
+24 error code E404
+25 error 404 Not found : DOT-tes-intern-task1
+26 error 404
+27 error 404 'DOT-tes-intern-task1' is not in the npm registry.
+28 error 404 Your package name is not valid, because
+29 error 404 1. name can no longer contain capital letters
+30 error 404 Note that you can also install from a
+31 error 404 tarball, folder, http url, or git url.
+32 verbose exit [ 1, true ]
